@@ -117,7 +117,7 @@ public class Test {
 
 
 
-## **throws **기법
+## throws 기법
 
 ```java
 public class Calculator {
@@ -150,8 +150,8 @@ public class Test {
 			result = c.divide(100, 2);
 		} catch(MyException e) {
 			System.out.println(e.getMessage());
-		} finally {								// 에러가 발생하든 아니든 항상 실행하는 블럭
-			System.out.println(result);			// 중요한 구문은 이 곳에 입력
+		} finally {							// 에러가 발생하든 아니든 항상 실행하는 블럭
+			System.out.println(result);		// 중요한 구문은 이 곳에 입력
 			System.out.println("아주 중요한 일 시작...");
 		}		
 	}
